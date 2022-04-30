@@ -1,0 +1,28 @@
+{
+    "id": "CEA9189B",
+    "path": null,
+    "project_path": null,
+    "type": "object_explorer",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1651325983666.0,
+    "source_on_save": false,
+    "relative_order": 7,
+    "properties": {
+        "id": "5eee4b37be78418188f6108545da9345",
+        "name": "county_totals",
+        "title": "county_totals",
+        "language": "R",
+        "source_window_id": "",
+        "Source": "Source"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1897934535896,
+    "encoding": "",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1651325983666,
+    "read_only": false,
+    "read_only_alternatives": []
+}

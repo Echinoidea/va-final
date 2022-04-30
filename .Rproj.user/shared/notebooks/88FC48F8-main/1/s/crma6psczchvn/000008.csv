@@ -1,0 +1,2707 @@
+"0","font_import()
+y
+"
+"2","Scanning ttf files in C:\WINDOWS\Fonts ...
+"
+"2","Extracting .afm files from .ttf files...
+"
+"2","C:\Windows\Fonts\AGENCYB.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\AGENCYB.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/AGENCYB""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\AGENCYR.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\AGENCYR.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/AGENCYR""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\ALGER.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\ALGER.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/ALGER""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\ANTQUAB.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\ANTQUAB.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/ANTQUAB""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\ANTQUABI.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\ANTQUABI.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/ANTQUABI""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\ANTQUAI.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\ANTQUAI.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/ANTQUAI""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\arial.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\arial.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/arial""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\arialbd.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\arialbd.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/arialbd""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\arialbi.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\arialbi.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/arialbi""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\ariali.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\ariali.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/ariali""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\ARIALN.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\ARIALN.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/ARIALN""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\ARIALNB.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\ARIALNB.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/ARIALNB""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\ARIALNBI.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\ARIALNBI.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/ARIALNBI""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\ARIALNI.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\ARIALNI.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/ARIALNI""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\ariblk.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\ariblk.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/ariblk""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\ARLRDBD.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\ARLRDBD.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/ARLRDBD""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\bahnschrift.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\bahnschrift.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/bahnschrift""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\BASKVILL.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\BASKVILL.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/BASKVILL""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\BAUHS93.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\BAUHS93.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/BAUHS93""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\BELL.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\BELL.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/BELL""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\BELLB.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\BELLB.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/BELLB""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\BELLI.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\BELLI.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/BELLI""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\BERNHC.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\BERNHC.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/BERNHC""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\BKANT.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\BKANT.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/BKANT""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\BOD_B.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\BOD_B.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/BOD_B""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\BOD_BI.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\BOD_BI.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/BOD_BI""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\BOD_BLAI.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\BOD_BLAI.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/BOD_BLAI""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\BOD_BLAR.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\BOD_BLAR.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/BOD_BLAR""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\BOD_CB.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\BOD_CB.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/BOD_CB""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\BOD_CBI.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\BOD_CBI.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/BOD_CBI""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\BOD_CI.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\BOD_CI.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/BOD_CI""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\BOD_CR.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\BOD_CR.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/BOD_CR""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\BOD_I.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\BOD_I.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/BOD_I""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\BOD_PSTC.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\BOD_PSTC.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/BOD_PSTC""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\BOD_R.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\BOD_R.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/BOD_R""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\BOOKOS.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\BOOKOS.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/BOOKOS""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\BOOKOSB.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\BOOKOSB.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/BOOKOSB""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\BOOKOSBI.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\BOOKOSBI.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/BOOKOSBI""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\BOOKOSI.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\BOOKOSI.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/BOOKOSI""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\BRADHITC.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\BRADHITC.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/BRADHITC""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\BRITANIC.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\BRITANIC.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/BRITANIC""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\BRLNSB.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\BRLNSB.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/BRLNSB""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\BRLNSDB.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\BRLNSDB.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/BRLNSDB""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\BRLNSR.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\BRLNSR.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/BRLNSR""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\BROADW.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\BROADW.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/BROADW""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\BRUSHSCI.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\BRUSHSCI.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/BRUSHSCI""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\BSSYM7.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\BSSYM7.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/BSSYM7""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\calibri.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\calibri.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/calibri""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\calibrib.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\calibrib.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/calibrib""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\calibrii.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\calibrii.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/calibrii""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\calibril.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\calibril.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/calibril""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\calibrili.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\calibrili.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/calibrili""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\calibriz.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\calibriz.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/calibriz""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\CALIFB.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\CALIFB.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/CALIFB""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\CALIFI.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\CALIFI.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/CALIFI""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\CALIFR.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\CALIFR.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/CALIFR""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\CALIST.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\CALIST.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/CALIST""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\CALISTB.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\CALISTB.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/CALISTB""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\CALISTBI.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\CALISTBI.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/CALISTBI""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\CALISTI.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\CALISTI.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/CALISTI""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\cambriab.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\cambriab.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/cambriab""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\cambriai.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\cambriai.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/cambriai""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\cambriaz.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\cambriaz.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/cambriaz""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\Candara.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\Candara.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/Candara""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\Candarab.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\Candarab.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/Candarab""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\Candarai.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\Candarai.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/Candarai""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\Candaral.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\Candaral.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/Candaral""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\Candarali.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\Candarali.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/Candarali""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\Candaraz.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\Candaraz.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/Candaraz""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\CASTELAR.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\CASTELAR.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/CASTELAR""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\CENSCBK.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\CENSCBK.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/CENSCBK""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\CENTAUR.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\CENTAUR.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/CENTAUR""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\CENTURY.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\CENTURY.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/CENTURY""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\CHILLER.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\CHILLER.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/CHILLER""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\COLONNA.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\COLONNA.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/COLONNA""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\comic.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\comic.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/comic""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\comicbd.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\comicbd.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/comicbd""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\comici.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\comici.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/comici""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\comicz.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\comicz.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/comicz""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\consola.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\consola.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/consola""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\consolab.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\consolab.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/consolab""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\consolai.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\consolai.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/consolai""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\consolaz.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\consolaz.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/consolaz""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\constan.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\constan.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/constan""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\constanb.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\constanb.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/constanb""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\constani.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\constani.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/constani""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\constanz.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\constanz.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/constanz""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\COOPBL.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\COOPBL.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/COOPBL""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\COPRGTB.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\COPRGTB.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/COPRGTB""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\COPRGTL.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\COPRGTL.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/COPRGTL""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\corbel.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\corbel.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/corbel""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\corbelb.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\corbelb.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/corbelb""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\corbeli.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\corbeli.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/corbeli""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\corbell.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\corbell.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/corbell""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\corbelli.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\corbelli.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/corbelli""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\corbelz.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\corbelz.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/corbelz""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\cour.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\cour.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/cour""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\courbd.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\courbd.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/courbd""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\courbi.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\courbi.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/courbi""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\couri.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\couri.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/couri""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\CURLZ___.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\CURLZ___.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/CURLZ___""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\Deng.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\Deng.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/Deng""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\Dengb.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\Dengb.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/Dengb""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\Dengl.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\Dengl.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/Dengl""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\DoulosSILR.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\DoulosSILR.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/DoulosSILR""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\DUBAI-BOLD.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\DUBAI-BOLD.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/DUBAI-BOLD""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\DUBAI-LIGHT.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\DUBAI-LIGHT.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/DUBAI-LIGHT""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\DUBAI-MEDIUM.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\DUBAI-MEDIUM.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/DUBAI-MEDIUM""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\DUBAI-REGULAR.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\DUBAI-REGULAR.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/DUBAI-REGULAR""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\ebrima.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\ebrima.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/ebrima""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\ebrimabd.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\ebrimabd.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/ebrimabd""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\ELEPHNT.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\ELEPHNT.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/ELEPHNT""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\ELEPHNTI.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\ELEPHNTI.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/ELEPHNTI""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\ENGR.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\ENGR.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/ENGR""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\ERASBD.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\ERASBD.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/ERASBD""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\ERASDEMI.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\ERASDEMI.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/ERASDEMI""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\ERASLGHT.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\ERASLGHT.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/ERASLGHT""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\ERASMD.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\ERASMD.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/ERASMD""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\FELIXTI.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\FELIXTI.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/FELIXTI""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\FORTE.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\FORTE.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/FORTE""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\FRABK.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\FRABK.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/FRABK""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\FRABKIT.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\FRABKIT.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/FRABKIT""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\FRADM.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\FRADM.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/FRADM""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\FRADMCN.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\FRADMCN.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/FRADMCN""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\FRADMIT.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\FRADMIT.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/FRADMIT""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\FRAHV.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\FRAHV.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/FRAHV""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\FRAHVIT.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\FRAHVIT.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/FRAHVIT""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\framd.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\framd.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/framd""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\FRAMDCN.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\FRAMDCN.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/FRAMDCN""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\framdit.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\framdit.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/framdit""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\FREESCPT.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\FREESCPT.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/FREESCPT""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\FRSCRIPT.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\FRSCRIPT.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/FRSCRIPT""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\FTLTLT.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\FTLTLT.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/FTLTLT""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\Gabriola.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\Gabriola.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/Gabriola""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\gadugi.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\gadugi.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/gadugi""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\gadugib.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\gadugib.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/gadugib""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\GARA.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\GARA.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/GARA""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\GARABD.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\GARABD.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/GARABD""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\GARAIT.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\GARAIT.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/GARAIT""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\georgia.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\georgia.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/georgia""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\georgiab.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\georgiab.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/georgiab""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\georgiai.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\georgiai.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/georgiai""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\georgiaz.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\georgiaz.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/georgiaz""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\GIGI.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\GIGI.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/GIGI""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\GIL_____.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\GIL_____.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/GIL_____""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\GILB____.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\GILB____.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/GILB____""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\GILBI___.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\GILBI___.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/GILBI___""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\GILC____.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\GILC____.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/GILC____""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\GILI____.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\GILI____.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/GILI____""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\GILLUBCD.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\GILLUBCD.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/GILLUBCD""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\GILSANUB.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\GILSANUB.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/GILSANUB""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\GLECB.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\GLECB.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/GLECB""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\GLSNECB.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\GLSNECB.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/GLSNECB""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\GOTHIC.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\GOTHIC.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/GOTHIC""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\GOTHICB.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\GOTHICB.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/GOTHICB""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\GOTHICBI.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\GOTHICBI.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/GOTHICBI""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\GOTHICI.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\GOTHICI.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/GOTHICI""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\GOUDOS.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\GOUDOS.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/GOUDOS""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\GOUDOSB.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\GOUDOSB.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/GOUDOSB""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\GOUDOSI.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\GOUDOSI.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/GOUDOSI""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\GOUDYSTO.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\GOUDYSTO.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/GOUDYSTO""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\HARLOWSI.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\HARLOWSI.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/HARLOWSI""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\HARNGTON.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\HARNGTON.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/HARNGTON""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\HATTEN.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\HATTEN.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/HATTEN""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\himalaya.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\himalaya.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/himalaya""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\holomdl2.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\holomdl2.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/holomdl2""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\HPSimplified_Bd.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\HPSimplified_Bd.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/HPSimplified_Bd""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\HPSimplified_BdIt.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\HPSimplified_BdIt.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/HPSimplified_BdIt""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\HPSimplified_It.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\HPSimplified_It.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/HPSimplified_It""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\HPSimplified_Lt.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\HPSimplified_Lt.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/HPSimplified_Lt""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\HPSimplified_LtIt.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\HPSimplified_LtIt.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/HPSimplified_LtIt""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\HPSimplified_Rg.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\HPSimplified_Rg.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/HPSimplified_Rg""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\HTOWERT.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\HTOWERT.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/HTOWERT""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\HTOWERTI.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\HTOWERTI.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/HTOWERTI""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\impact.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\impact.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/impact""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\IMPRISHA.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\IMPRISHA.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/IMPRISHA""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\INFROMAN.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\INFROMAN.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/INFROMAN""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\Inkfree.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\Inkfree.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/Inkfree""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\ITCBLKAD.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\ITCBLKAD.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/ITCBLKAD""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\ITCEDSCR.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\ITCEDSCR.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/ITCEDSCR""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\ITCKRIST.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\ITCKRIST.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/ITCKRIST""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\javatext.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\javatext.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/javatext""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\JOKERMAN.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\JOKERMAN.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/JOKERMAN""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\JUICE___.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\JUICE___.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/JUICE___""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\kaiu.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\kaiu.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/kaiu""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\KUNSTLER.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\KUNSTLER.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/KUNSTLER""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\l_10646.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\l_10646.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/l_10646""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\LATINWD.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\LATINWD.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/LATINWD""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\LBRITE.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\LBRITE.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/LBRITE""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\LBRITED.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\LBRITED.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/LBRITED""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\LBRITEDI.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\LBRITEDI.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/LBRITEDI""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\LBRITEI.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\LBRITEI.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/LBRITEI""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\LCALLIG.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\LCALLIG.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/LCALLIG""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\LeelaUIb.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\LeelaUIb.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/LeelaUIb""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\LeelawUI.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\LeelawUI.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/LeelawUI""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\LeelUIsl.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\LeelUIsl.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/LeelUIsl""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\LFAX.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\LFAX.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/LFAX""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\LFAXD.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\LFAXD.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/LFAXD""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\LFAXDI.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\LFAXDI.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/LFAXDI""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\LFAXI.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\LFAXI.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/LFAXI""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\LHANDW.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\LHANDW.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/LHANDW""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\LSANS.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\LSANS.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/LSANS""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\LSANSD.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\LSANSD.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/LSANSD""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\LSANSDI.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\LSANSDI.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/LSANSDI""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\LSANSI.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\LSANSI.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/LSANSI""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\LTYPE.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\LTYPE.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/LTYPE""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\LTYPEB.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\LTYPEB.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/LTYPEB""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\LTYPEBO.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\LTYPEBO.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/LTYPEBO""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\LTYPEO.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\LTYPEO.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/LTYPEO""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\lucon.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\lucon.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/lucon""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\MAGNETOB.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\MAGNETOB.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/MAGNETOB""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\MAIAN.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\MAIAN.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/MAIAN""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\malgun.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\malgun.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/malgun""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\malgunbd.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\malgunbd.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/malgunbd""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\malgunsl.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\malgunsl.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/malgunsl""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\marlett.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\marlett.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/marlett""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\MATURASC.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\MATURASC.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/MATURASC""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\micross.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\micross.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/micross""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\MISTRAL.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\MISTRAL.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/MISTRAL""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\mmrtext.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\mmrtext.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/mmrtext""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\mmrtextb.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\mmrtextb.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/mmrtextb""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\MOD20.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\MOD20.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/MOD20""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\monbaiti.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\monbaiti.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/monbaiti""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\msyi.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\msyi.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/msyi""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\MTCORSVA.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\MTCORSVA.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/MTCORSVA""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\MTEXTRA.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\MTEXTRA.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/MTEXTRA""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\Musique Unicode.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\Musique Unicode.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/Musique Unicode""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\MusiqueU.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\MusiqueU.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/MusiqueU""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\mvboli.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\mvboli.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/mvboli""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\NIAGENG.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\NIAGENG.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/NIAGENG""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\NIAGSOL.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\NIAGSOL.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/NIAGSOL""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\Nirmala.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\Nirmala.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/Nirmala""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\NirmalaB.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\NirmalaB.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/NirmalaB""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\NirmalaS.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\NirmalaS.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/NirmalaS""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\ntailu.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\ntailu.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/ntailu""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\ntailub.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\ntailub.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/ntailub""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\OCRAEXT.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\OCRAEXT.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/OCRAEXT""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\OLDENGL.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\OLDENGL.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/OLDENGL""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\ONYX.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\ONYX.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/ONYX""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\OUTLOOK.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\OUTLOOK.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/OUTLOOK""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\pala.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\pala.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/pala""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\palab.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\palab.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/palab""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\palabi.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\palabi.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/palabi""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\palai.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\palai.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/palai""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\PALSCRI.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\PALSCRI.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/PALSCRI""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\PAPYRUS.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\PAPYRUS.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/PAPYRUS""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\PARCHM.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\PARCHM.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/PARCHM""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\PER_____.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\PER_____.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/PER_____""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\PERB____.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\PERB____.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/PERB____""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\PERBI___.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\PERBI___.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/PERBI___""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\PERI____.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\PERI____.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/PERI____""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\PERTIBD.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\PERTIBD.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/PERTIBD""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\PERTILI.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\PERTILI.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/PERTILI""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\phagspa.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\phagspa.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/phagspa""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\phagspab.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\phagspab.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/phagspab""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\PLAYBILL.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\PLAYBILL.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/PLAYBILL""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\POORICH.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\POORICH.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/POORICH""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\PRISTINA.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\PRISTINA.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/PRISTINA""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\RAGE.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\RAGE.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/RAGE""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\RAVIE.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\RAVIE.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/RAVIE""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\REFSAN.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\REFSAN.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/REFSAN""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\REFSPCL.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\REFSPCL.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/REFSPCL""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\ROCC____.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\ROCC____.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/ROCC____""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\ROCCB___.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\ROCCB___.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/ROCCB___""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\ROCK.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\ROCK.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/ROCK""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\ROCKB.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\ROCKB.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/ROCKB""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\ROCKBI.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\ROCKBI.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/ROCKBI""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\ROCKEB.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\ROCKEB.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/ROCKEB""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\ROCKI.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\ROCKI.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/ROCKI""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\SCHLBKB.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\SCHLBKB.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/SCHLBKB""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\SCHLBKBI.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\SCHLBKBI.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/SCHLBKBI""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\SCHLBKI.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\SCHLBKI.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/SCHLBKI""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\SCRIPTBL.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\SCRIPTBL.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/SCRIPTBL""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\segmdl2.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\segmdl2.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/segmdl2""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\segoepr.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\segoepr.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/segoepr""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\segoeprb.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\segoeprb.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/segoeprb""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\segoesc.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\segoesc.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/segoesc""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\segoescb.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\segoescb.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/segoescb""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\segoeui.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\segoeui.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/segoeui""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\segoeuib.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\segoeuib.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/segoeuib""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\segoeuii.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\segoeuii.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/segoeuii""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\segoeuil.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\segoeuil.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/segoeuil""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\segoeuisl.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\segoeuisl.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/segoeuisl""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\segoeuiz.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\segoeuiz.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/segoeuiz""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\seguibl.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\seguibl.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/seguibl""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\seguibli.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\seguibli.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/seguibli""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\seguiemj.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\seguiemj.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/seguiemj""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\seguihis.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\seguihis.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/seguihis""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\seguili.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\seguili.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/seguili""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\seguisb.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\seguisb.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/seguisb""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\seguisbi.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\seguisbi.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/seguisbi""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\seguisli.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\seguisli.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/seguisli""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\seguisym.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\seguisym.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/seguisym""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\SHOWG.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\SHOWG.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/SHOWG""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\simfang.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\simfang.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/simfang""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\simhei.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\simhei.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/simhei""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\simkai.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\simkai.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/simkai""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\simsunb.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\simsunb.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/simsunb""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\SNAP____.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\SNAP____.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/SNAP____""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\STENCIL.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\STENCIL.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/STENCIL""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\sylfaen.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\sylfaen.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/sylfaen""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\symbol.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\symbol.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/symbol""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\tahoma.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\tahoma.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/tahoma""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\tahomabd.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\tahomabd.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/tahomabd""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\taile.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\taile.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/taile""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\taileb.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\taileb.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/taileb""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\TCB_____.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\TCB_____.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/TCB_____""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\TCBI____.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\TCBI____.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/TCBI____""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\TCCB____.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\TCCB____.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/TCCB____""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\TCCEB.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\TCCEB.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/TCCEB""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\TCCM____.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\TCCM____.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/TCCM____""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\TCM_____.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\TCM_____.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/TCM_____""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\TCMI____.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\TCMI____.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/TCMI____""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\TEMPSITC.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\TEMPSITC.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/TEMPSITC""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\times.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\times.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/times""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\timesbd.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\timesbd.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/timesbd""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\timesbi.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\timesbi.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/timesbi""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\timesi.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\timesi.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/timesi""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\trebuc.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\trebuc.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/trebuc""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\trebucbd.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\trebucbd.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/trebucbd""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\trebucbi.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\trebucbi.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/trebucbi""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\trebucit.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\trebucit.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/trebucit""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\unispace bd.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\unispace bd.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/unispace bd""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\verdana.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\verdana.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/verdana""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\verdanab.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\verdanab.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/verdanab""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\verdanai.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\verdanai.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/verdanai""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\verdanaz.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\verdanaz.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/verdanaz""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\VINERITC.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\VINERITC.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/VINERITC""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\VIVALDII.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\VIVALDII.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/VIVALDII""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\VLADIMIR.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\VLADIMIR.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/VLADIMIR""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\webdings.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\webdings.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/webdings""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\wingding.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\wingding.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/wingding""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\WINGDNG2.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\WINGDNG2.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/WINGDNG2""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\WINGDNG3.TTF"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\WINGDNG3.TTF"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/WINGDNG3""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\yumin.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\yumin.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/yumin""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\yumindb.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\yumindb.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/yumindb""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","C:\Windows\Fonts\yuminl.ttf"
+"2","Warning in system2(ttf2pt1, c(args, shQuote(ttfiles[i]), shQuote(tmpfiles[i])),  :"
+"2","
+ "
+"2"," running command '""C:/Users/Owner/Documents/R/win-library/4.1/Rttf2pt1/exec/ttf2pt1.exe"" -a -G fAe ""C:\Windows\Fonts\yuminl.ttf"" ""C:\Users\Owner\AppData\Local\Temp\RtmpeCy06d/fonts/yuminl""' had status 5
+"
+"2"," : No FontName. Skipping.
+"
+"2","Found FontName for 0 fonts.
+"
+"2","Scanning afm files in C:/Users/Owner/Documents/R/win-library/4.1/extrafontdb/metrics
+"

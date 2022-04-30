@@ -1,0 +1,4 @@
+"0","ggsave(plot_time, filename = ""time-series.png"", dpi = 300, type = ""cairo"", width = 10, height = 5, units = 'in')
+"
+"2","`geom_smooth()` using method = 'gam' and formula 'y ~ s(x, bs = ""cs"")'
+"

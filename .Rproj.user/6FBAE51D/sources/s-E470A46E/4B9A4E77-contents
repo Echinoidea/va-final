@@ -1,0 +1,524 @@
+---
+title: "Transportation Fatalities"
+author: "Gabriel Hooks"
+output: html_notebook
+---
+
+```{r Libraries}
+library(tibble)
+library(dplyr)
+library(magrittr)
+library(reshape2)
+library(ggplot2)
+library(ggdark)
+library(tidyverse)
+library(RColorBrewer)
+library(runner)
+library(lubridate)
+library(hms)
+library(ggmap)
+library(maps)
+library(grid)
+library(gridExtra)
+```
+```{r, setup}
+knitr::opts_chunk$set(echo = TRUE, fig.width = 10, fig.height = 5, fig.align = "center")
+```
+
+```{r, Fonts Setup}
+install.packages("extrafont")
+library(extrafont)
+font_import()
+loadfonts(device = "win")
+```
+
+```{r, Load Data}
+data <- read.csv("data/accident2019.csv", sep = ';', row.names = NULL)
+```
+
+
+```{r, Data Preparation}
+# Remove unneeded columns
+df_clean <- data[, -c(1, 11, 13, 16, 18, 20, 23, 25, 27, 32, 34, 36, 39, 41, 43,
+                      44, 46, 48, 50, 52, 54, 57, 58, 60, 62, 64, 66, 69, 70, 73,
+                      75, 77, 79, 81, 83, 84, 86, 88)]
+
+# Aggregate date columns into one Data variable, remove redundant year, month, date columns
+df_clean <- add_column(df_clean, DATE = as.Date(with(df_clean, paste(YEAR, MONTH, DAY, sep="-")), "%Y-%m-%d"), .after = "CITYNAME")
+df_clean <- df_clean[, -c(13, 14, 15)]
+
+# Remove "(id)" after county name in COUNTYNAME
+df_clean$COUNTYNAME <- gsub("\\(\\d+\\)", "", df_clean$COUNTYNAME)
+
+# Any HOUR or MINUTE column may have values greater than 24 or 60, which represents
+# unknown or NA. Replace with NA
+df_clean$HOUR <- ifelse(df_clean$HOUR > 24, NA, df_clean$HOUR)
+df_clean$MINUTE <- ifelse(df_clean$MINUTE > 60, NA, df_clean$MINUTE)
+
+df_clean$NOT_HOUR <- ifelse(df_clean$NOT_HOUR > 24, NA, df_clean$NOT_HOUR)
+df_clean$NOT_MIN <- ifelse(df_clean$NOT_MIN > 60, NA, df_clean$NOT_MIN)
+
+df_clean$ARR_HOUR <- ifelse(df_clean$ARR_HOUR > 24, NA, df_clean$ARR_HOUR)
+df_clean$ARR_MIN <- ifelse(df_clean$ARR_MIN > 60, NA, df_clean$ARR_MIN)
+
+df_clean$HOSP_HR <- ifelse(df_clean$HOSP_HR > 24, NA, df_clean$HOSP_HR)
+df_clean$HOSP_MN <- ifelse(df_clean$HOSP_MN > 60, NA, df_clean$HOSP_MN)
+
+```
+
+## Removed Columns (Numbers and Names)
+1, 11, 13, 16, 18, 20, 23, 25, 27, 32, 34, 36, 39, 41, 43, 44, 46, 48, 50, 52, 54,
+57, 58, 60, 62, 64, 66, 69, 70, 73, 75, 77, 79, 81, 83, 84, 86, 88
+
+STATE, COUNTY, CITY, DAYNAME, MONTHNAME, DAY_WEEK, HOURNAME, MINUTENAME, NHSNAME, 
+RUR_URB, FUNC_SYS, RD_OWNER, MILEPTNAME, LATITUDENAME, LONGITUDENAME, SP_JUR, 
+HARM_EV, MAN_COLL, RELJCT1, RELJCT2, TYP_INT, WRK_ZONENAME, REL_ROAD, LGT_COND, 
+WEATHER1, WEATHER2, WEATHER, SCH_BUSNAME, RAIL, NOT_HOURNAME, NOT_MINNAME, 
+ARR_HOURNAME, HOSP_HRNAME, HOSP_MNNAME, CF1, CF2, CF3
+
+These were removed because these are either redundant or numerical codes 
+representing information about the incident. These columns were probably
+intended to be used following a specific convention for database that the DOT
+uses.
+
+Fortunately, all columns with numeric codes have another column explaining what
+that code means. There are also a few documents that have some information on the
+terms and abbreviations.
+
+https://cdan.nhtsa.gov/Homepage/Terms&Acronyms.pdf
+https://www.tn.gov/content/dam/tn/tdot/long-range-planning/research/final-reports/res2016-final-reports/RES2016-34%20Final%20Report%20Revised%20-%20Approved.pdf
+
+```{r, Melt Data}
+df_melt <- melt(df_clean, id=c("STATENAME"), value.name = "FATALS")
+```
+
+```{r, Exploratory Analysis}
+plot_states <- ggplot(df_clean, aes(x = fct_infreq(STATENAME), fill = -..count.., color = -..count..)) +
+  geom_bar(stat = 'count', width = 0.7) +
+  coord_flip(ylim = c(1, 3500)) +
+  labs(title = "Number of Fatal Accidents by State",
+       x = "State") +
+  dark_theme_gray() +
+  theme(axis.text.y = element_text(size = 7),
+        axis.title = element_blank(),
+        legend.position = "none") +
+  scale_fill_distiller(palette = "RdPu") +
+  scale_color_distiller(palette = "RdPu")
+plot_states
+
+
+# Only greater than one fatality
+plot_multiple <- ggplot(subset(df_clean, FATALS > 1), aes(x = fct_infreq(STATENAME), fill = -..count.., color = -..count..)) +
+  geom_bar(stat = 'count', width = 0.7) +
+  #coord_fixed(xlim = NULL, ylim = c(1, 4000), default = TRUE) +
+  coord_flip(ylim = c(1, 1000)) +
+  labs(title = "Number of Fatal Accidents with More than One Fatality",
+       x = "State") +
+  dark_theme_gray() +
+  theme(axis.text.y = element_text(size = 7),
+        axis.title = element_blank(),
+        legend.position = "none") +
+  scale_fill_distiller(palette = "RdPu") +
+  scale_color_distiller(palette = "RdPu")
+plot_multiple
+```
+
+
+```{r, Exploratory - DUI-Related}
+# Same as above but for only drunk driving related accidents
+plot_dui <- ggplot(subset(df_clean, DRUNK_DR != 0), aes(x = fct_infreq(STATENAME), fill = -..count.., color = -..count..)) +
+  geom_bar(stat = 'count', width = 0.7) +
+  coord_flip(ylim = c(1, 3500)) +
+  labs(title = "Number of DUI-Related Accidents by State",
+       x = "State") +
+  dark_theme_gray() +
+  theme(axis.text.y = element_text(size = 7),
+        axis.title = element_blank(),
+        legend.position = "none") +
+  scale_fill_distiller(palette = "RdPu") +
+  scale_color_distiller(palette = "RdPu")
+plot_dui
+
+
+# Only greater than one fatality while DUI
+plot_multiple_dui <- ggplot(subset(df_clean, DRUNK_DR != 0 & FATALS > 1), aes(x = fct_infreq(STATENAME), fill = -..count.., color = -..count..)) +
+  geom_bar(stat = 'count', width = 0.7) +
+  #coord_fixed(xlim = NULL, ylim = c(1, 4000), default = TRUE) +
+  coord_flip(ylim = c(1, 250)) +
+  labs(title = "Number of DUI-Related Accidents with More than One Fatality",
+       x = "State") +
+  dark_theme_gray() +
+  theme(text = element_text(family = "Gotham"), 
+        axis.text.y = element_text(size = 7),
+        axis.title = element_blank(),
+        legend.position = "none") +
+  scale_fill_distiller(palette = "RdPu") +
+  scale_color_distiller(palette = "RdPu")
+plot_multiple_dui
+
+```
+
+```{r Days of the Week Frequency}
+plot_weekday <- ggplot(df_clean, aes(x = factor(DAY_WEEKNAME, 
+                                levels = c("Sunday", "Monday", "Tuesday", 
+                                           "Wednesday", "Thursday", 
+                                           "Friday", "Saturday")),
+                     fill = -..count.., 
+                     color = -..count..)) +
+  geom_bar(stat = 'count', 
+           width = 0.7) +
+  geom_text(stat = 'count', 
+            aes(label = ..count..), 
+            vjust = -0.3, 
+            color = "white") +
+  labs(title = "Number of Fatal Accidents per Weekday",
+       x = "") +
+  dark_theme_gray() +
+  theme(axis.text.y = element_text(size = 7),
+        axis.title.y = element_blank(),
+        axis.title.x = element_blank(),
+        legend.position = "none") +
+  scale_fill_distiller(palette = "RdPu") +
+  scale_color_distiller(palette = "RdPu")
+plot_weekday
+
+plot_weekday_dui <- ggplot(subset(df_clean, DRUNK_DR != 0), aes(x = factor(DAY_WEEKNAME, 
+                                levels = c("Sunday", "Monday", "Tuesday", 
+                                           "Wednesday", "Thursday", 
+                                           "Friday", "Saturday")),
+                     fill = -..count.., 
+                     color = -..count..)) +
+  geom_bar(stat = 'count', 
+           width = 0.7) +
+  geom_text(stat = 'count', 
+            aes(label = ..count..), 
+            vjust = -0.3, 
+            color = "white") +
+  labs(title = "Number of DUI-Related Fatal Accidents per Weekday",
+       x = "") +
+  dark_theme_gray() +
+  theme(axis.text.y = element_text(size = 7),
+        axis.title.y = element_blank(),
+        axis.title.x = element_blank(),
+        legend.position = "none") +
+  scale_fill_distiller(palette = "RdPu") +
+  scale_color_distiller(palette = "RdPu")
+plot_weekday_dui
+```
+
+```{r, Rural / Urban}
+plot_rururb <- ggplot(df_clean, aes(x = factor(RUR_URBNAME, 
+                                levels = c("Rural", "Urban")),
+                     fill = -..count.., 
+                     color = -..count..)) +
+  geom_bar(stat = 'count', 
+           width = 0.7) +
+  geom_text(stat = 'count', 
+            aes(label = scales::percent(prop.table(stat(count)), accuracy = 0.01)), 
+            vjust = -0.3, 
+            color = "white") +
+  labs(title = "Number of Fatal Accidents in Rural vs. Urban Areas",
+       x = "") +
+  dark_theme_gray() +
+  theme(axis.text.y = element_text(size = 7),
+        axis.title.y = element_blank(),
+        axis.title.x = element_blank(),
+        legend.position = "none") +
+  scale_fill_distiller(palette = "RdPu") +
+  scale_color_distiller(palette = "RdPu")
+plot_rururb
+```
+
+```{r, Weather Frequency}
+plot_weather <- ggplot(subset(df_clean, WEATHER1NAME != ""), aes(x = fct_infreq(WEATHER1NAME),
+                     fill = -..count.., 
+                     color = -..count..)) +
+  geom_bar(stat = 'count', 
+           width = 0.7) +
+  geom_text(stat = 'count', 
+            aes(label = ..count..), 
+            hjust = -0.15, 
+            color = "white") +
+  coord_flip() +
+  labs(title = "Number of Fatal Accidents by Weather Conditions",
+       x = "") +
+  dark_theme_gray() +
+  theme(axis.text.y = element_text(size = 7),
+        axis.title.y = element_blank(),
+        axis.title.x = element_blank(),
+        legend.position = "none") +
+  scale_fill_distiller(palette = "RdPu") +
+  scale_color_distiller(palette = "RdPu")
+plot_weather
+```
+I want a df with
+date, total fatalities to date, drunk driving involved y/n
+
+```{r, Mutating Data for Time Series}
+df_count <- df_clean %>%
+  group_by(DATE) %>%
+  mutate(TOTAL = n()) %>%
+  mutate(TOTAL_TO_DATE = sum_run(
+    x = TOTAL
+  )) %>%
+  mutate(DUI = ifelse(DRUNK_DR != 0, "DUI", "Non-DUI"))
+  
+```
+
+```{r, Time Plot}
+plot_time <- ggplot(df_count, aes(x = DATE, y = TOTAL, color = as.factor(DUI))) +
+  geom_point(alpha = 0.7) +
+  scale_color_manual(breaks = c("DUI", "Non-DUI"),
+                     values = c("#AE017E", "#FDE0DD")) +
+  geom_smooth(se = FALSE,
+              alpha = 0.4,
+              size = 0.5) +
+  labs(title = "Number of Fatal Accidents per Day",
+       subtitle = "From 2019-01 to 2020-01",
+       x = "",
+       y = "") +
+  scale_x_date(breaks = function(x) seq.Date(from = min(x), 
+                                                 to = max(x), 
+                                                 by = "1 month"),
+               date_labels = "%Y/%m") +
+  dark_theme_gray() +
+  theme(legend.position = "right",
+        legend.title = element_blank(),
+        axis.title.y = element_blank(),
+        axis.title.x = element_blank())
+plot_time
+```
+Get average values for each hour range 0:0-0:59, 1:00-1:59
+```{r, Mutating Data for Hourly Time Series}
+df_hour <- df_clean %>%
+  filter(!is.na(HOUR)) %>%
+  mutate(TIME = hms(seconds = NULL, minutes = NULL, hours = HOUR)) %>%
+  group_by(HOUR) %>%
+  mutate(TOTAL = n()) %>%
+  mutate(DUI = ifelse(DRUNK_DR != 0, "DUI", "Non-DUI"))
+
+```
+
+```{r, Time Series for Accidents within a Day by Hour and Minute}
+plot_hour_line <- ggplot(df_hour, aes(x = HOUR, y = TOTAL, color = as.factor(DUI))) +
+  geom_point(alpha = 0.7) +
+  scale_color_manual(breaks = c("DUI", "Non-DUI"),
+                     values = c("#AE017E", "#FDE0DD")) +
+  geom_smooth(se = FALSE,
+              alpha = 0.4,
+              size = 0.5) +
+ # coord_cartesian(ylim = c(1, 100)) +
+  scale_x_continuous("", breaks = seq(0, 23), labels = seq(0, 23)) +
+  labs(title = "Average Number of Fatal Accidents per Hour",
+       x = "",
+       y = "") +
+  dark_theme_gray() +
+  theme(legend.position = "right",
+        legend.title = element_blank(),
+        axis.title.y = element_blank(),
+        axis.title.x = element_blank())
+plot_hour_line
+```
+
+```{r, Polar Histogram for Hours of the Day}
+plot_hour_polar <- ggplot(df_hour, aes(x = HOUR, color = ..count.., fill = ..count..)) +
+  geom_bar(stat = 'count', width = 1) +
+  #scale_x_continuous(breaks = seq(0, 360, 30)) +
+  coord_polar(theta = "x") +
+  scale_x_continuous("", breaks = seq(0, 23), labels = seq(0, 23)) +
+  #scale_y_continuous("", limits = c(1, 2000)) +
+  labs(title = "Average Number of Fatal Accidents by Hour",
+       x = "",
+       y = "") +
+  dark_theme_gray() +
+  scale_color_gradient(low = "#FDE0DD", high = "#AE017E") +
+  scale_fill_gradient(low = "#FDE0DD", high = "#AE017E") +
+  theme(legend.position = "none",
+        legend.title = element_blank(),
+        axis.title.y = element_blank(),
+        axis.title.x = element_blank())
+plot_hour_polar
+```
+
+```{r, Mutate for States Map}
+df_states <- df_clean %>%
+  group_by(STATENAME) %>%
+  summarise(TOTAL = n())
+
+colnames(df_states) <- c("region", "TOTAL")
+
+df_states$region <- sapply(df_states$region, tolower)
+```
+
+```{r, Get US Map}
+us_states <- map_data("state")
+us_counties <- map_data("county")
+```
+
+```{r, Join my df_states and us_states}
+df_states <- inner_join(us_states, df_states, by = "region")
+```
+
+```{r, ggmap All USA}
+
+plot_map_usa <- ggplot(df_states, aes(x = long, y = lat, group = group, fill = TOTAL)) +
+  geom_polygon(color = "grey6") + 
+  labs(title = "Frequency of Fatal Accidents by State") +
+  coord_map() +
+  scale_fill_gradient(low = "#FDE0DD", high = "#AE017E") +
+  dark_theme_gray() +
+  theme(axis.title = element_blank(),
+        axis.text = element_blank(),
+        axis.ticks = element_blank())
+plot_map_usa
+  
+```
+```{r, US Counties with Total}
+us_counties_t <- us_counties
+```
+
+```{r, Mutate for USA Counties}
+df_counties <- df_clean %>%
+  mutate(COUNTYNAME = tolower(COUNTYNAME)) %>%
+  mutate(COUNTYNAME = trimws(COUNTYNAME, which = "both")) %>%
+  group_by(STATENAME, COUNTYNAME) %>%
+  summarise(STATENAME = tolower(STATENAME), TOTAL = n())
+
+countyTotals <- function(counties) {
+  totals <- c()
+  for(i in 1:nrow(counties)) {
+    statename <- counties[i, 'region']
+    countyname <- counties[i, 'subregion']
+
+    if (countyname %in% df_counties$COUNTYNAME) {
+      totals <- append(totals, 
+                       df_counties[which(df_counties$COUNTYNAME == countyname & df_counties$STATENAME == statename), 'TOTAL'][[1]][1])
+    }
+    else {
+      totals <- append(totals, 0)
+      next
+    }
+  }
+  return(totals)
+}
+
+county_totals <- countyTotals(us_counties_t)
+
+```
+
+```{r, Join TOTAL to us_counties_t}
+us_counties_t$TOTAL <- county_totals
+us_counties_t <- tidyr::unnest(us_counties_t, 7)
+```
+
+```{r, Plot USA Counties}
+plot_map_counties <- us_counties_t %>%
+  ggplot(aes(x = long, y = lat, group = group, fill = TOTAL)) +
+  geom_polygon(size = 0.1) +
+  scale_fill_gradient(low = "#FDE0DD", high = "#AE017E") +
+  coord_map() +
+  labs(title = "Count of Fatal Accidents per US County") +
+  dark_theme_gray() +
+  theme(axis.title = element_blank(),
+        axis.text = element_blank(),
+        axis.ticks = element_blank(),
+        panel.grid = element_blank())
+
+
+plot_map_counties
+```
+
+```{r, County Hist}
+plot_county_hist <- ggplot(subset(us_counties_t, TOTAL > 200), aes(x = fct_infreq(subregion), fill = -..count.., color = -..count..)) +
+  geom_bar(stat = 'count', width = 0.7) +
+  #coord_fixed(xlim = NULL, ylim = c(1, 4000), default = TRUE) +
+  coord_flip() +
+  labs(title = "Number of DUI-Related Accidents with More than One Fatality",
+       x = "State") +
+  dark_theme_gray() +
+  theme(text = element_text(family = "Gotham"), 
+        axis.text.y = element_text(size = 7),
+        axis.title = element_blank(),
+        legend.position = "none") +
+  scale_fill_distiller(palette = "RdPu") +
+  scale_color_distiller(palette = "RdPu")
+plot_county_hist
+```
+
+```{r, Mutate for Florida Map}
+fl_counties <- us_counties_t %>%
+  filter(region == "florida")
+```
+
+
+```{r, ggmap Florida}
+plot_map_fl_counties <- fl_counties %>%
+  ggplot(aes(x = long, y = lat, group = group, fill = TOTAL)) +
+  geom_polygon(size = 0.1) +
+  scale_fill_gradient(low = "#FDE0DD", high = "#AE017E") +
+  coord_map() +
+  labs(title = "Count of Fatal Accidents per Florida County") +
+  dark_theme_gray() +
+  theme(axis.title = element_blank(),
+        axis.text = element_blank(),
+        axis.ticks = element_blank(),
+        panel.grid = element_blank()) +
+  geom_point(aes(y = 28.51, x = -81.32), size = 1, color = "white") +
+  geom_text(aes(y = 28.51, x = -81.32),
+            label = "#4 Orange",
+            color = "white",
+            size = 2.9,
+            vjust = -0.5,
+            hjust = -0.05) +
+  geom_point(aes(y = 27.91, x = -82.35), size = 1, color = "white") +
+  geom_text(aes(y = 27.91, x = -82.35),
+            label = "#2 Hillsborough",
+            color = "white",
+            size = 2.9,
+            vjust = -0.5,
+            hjust = -0.05) +
+  geom_point(aes(y = 26.71, x = -80.05), size = 1, color = "white") +
+  geom_text(aes(y = 26.71, x = -80.05),
+            label = "#5 Palm Beach",
+            color = "white",
+            size = 2.9,
+            vjust = -0.6,
+            hjust = 1) +
+  geom_point(aes(y = 26.124354, x = -80.249503), size = 1, color = "white") +
+  geom_text(aes(y = 26.124354, x = -80.249503),
+            label = "#3 Broward",
+            color = "white",
+            size = 2.9,
+            vjust = -0.6,
+            hjust = 1) +
+  geom_point(aes(y = 25.771163582, x = -80.189499242), size = 1, color = "white") +
+  geom_text(aes(y = 25.771163582, x = -80.189499242),
+            label = "#1 Miami-Dade",
+            color = "white",
+            size = 2.9,
+            vjust = -0.6,
+            hjust = 1)
+
+plot_map_fl_counties
+```
+```{r, Changing Renderer}
+library(Cairo)
+CairoWin()
+```
+
+```{r, Save Plots}
+ggsave(plot_dui, filename = "dui.png", dpi = 300, type = "cairo", width = 10, height = 5, units = 'in')
+ggsave(plot_hour_line, filename = "hour-line.png", dpi = 300, type = "cairo", width = 10, height = 5, units = 'in')
+ggsave(plot_hour_polar, filename = "hour-polar.png", dpi = 300, type = "cairo", width = 10, height = 5, units = 'in')
+ggsave(plot_map_counties, filename = "map-counties.png", dpi = 300, type = "cairo", width = 10, height = 5, units = 'in')
+ggsave(plot_map_fl_counties, filename = "map-fl-counties.png", dpi = 300, type = "cairo", width = 10, height = 5, units = 'in')
+ggsave(plot_map_usa, filename = "map-usa.png", dpi = 300, type = "cairo", width = 10, height = 5, units = 'in')
+ggsave(plot_multiple, filename = "multiple-fatal.png", dpi = 300, type = "cairo", width = 10, height = 5, units = 'in')
+ggsave(plot_multiple_dui, filename = "multiple-fatal-dui.png", dpi = 300, type = "cairo", width = 10, height = 5, units = 'in')
+ggsave(plot_rururb, filename = "rural-urban.png", dpi = 300, type = "cairo", width = 10, height = 5, units = 'in')
+ggsave(plot_states, filename = "state-freq.png", dpi = 300, type = "cairo", width = 10, height = 5, units = 'in')
+ggsave(plot_time, filename = "time-series.png", dpi = 300, type = "cairo", width = 10, height = 5, units = 'in')
+ggsave(plot_weather, filename = "weather.png", dpi = 300, type = "cairo", width = 10, height = 5, units = 'in')
+ggsave(plot_weekday, filename = "weekdays.png", dpi = 300, type = "cairo", width = 10, height = 5, units = 'in')
+ggsave(plot_weekday_dui, filename = "weekdays_dui.png", dpi = 300, type = "cairo", width = 10, height = 5, units = 'in')
+```

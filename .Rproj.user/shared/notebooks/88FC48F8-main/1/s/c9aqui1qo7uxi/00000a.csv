@@ -1,0 +1,7 @@
+"0","df_hour <- df_clean %>%"
+"0","  filter(!is.na(HOUR)) %>%"
+"0","  mutate(TIME = hms(seconds = NULL, minutes = NULL, hours = HOUR)) %>%"
+"0","  group_by(HOUR) %>%"
+"0","  mutate(TOTAL = n()) %>%"
+"0","  mutate(DUI = ifelse(DRUNK_DR != 0, ""DUI"", ""Non-DUI""))"
+"0",""

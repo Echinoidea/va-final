@@ -1,0 +1,3 @@
+"0","us_counties_t$TOTAL <- county_totals"
+"0","us_counties_t <- tidyr::unnest(us_counties_t, 7)"
+"0","  "

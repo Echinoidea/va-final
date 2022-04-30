@@ -1,0 +1,8 @@
+"0","df_count <- df_clean %>%"
+"0","  group_by(DATE) %>%"
+"0","  mutate(TOTAL = n()) %>%"
+"0","  mutate(TOTAL_TO_DATE = sum_run("
+"0","    x = TOTAL"
+"0","  )) %>%"
+"0","  mutate(DUI = ifelse(DRUNK_DR != 0, ""DUI"", ""Non-DUI""))"
+"0","  "

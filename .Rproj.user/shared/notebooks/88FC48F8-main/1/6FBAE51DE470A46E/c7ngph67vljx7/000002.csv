@@ -1,0 +1,4 @@
+"0","df_melt <- melt(df_clean, id=c(""STATENAME""), value.name = ""FATALS"")"
+"2","Warning:"
+"2"," attributes are not identical across measure variables; they will be dropped
+"

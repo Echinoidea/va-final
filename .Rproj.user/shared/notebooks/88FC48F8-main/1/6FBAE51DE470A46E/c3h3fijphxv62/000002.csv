@@ -1,0 +1,7 @@
+"0","df_states <- df_clean %>%"
+"0","  group_by(STATENAME) %>%"
+"0","  summarise(TOTAL = n())"
+"0",""
+"0","colnames(df_states) <- c(""region"", ""TOTAL"")"
+"0",""
+"0","df_states$region <- sapply(df_states$region, tolower)"
